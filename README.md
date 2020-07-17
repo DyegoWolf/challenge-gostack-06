@@ -18,7 +18,7 @@
 
 ## Introdução :memo:
 
-Este projeto foi motivado pelo desafio 06 do [Bootcamp GoStack](https://rocketseat.com.br/gostack) e consiste em uma API REST para gerência
+Este projeto foi motivado pelo desafio 06 do [Bootcamp GoStack](https://rocketseat.com.br/gostack) e consiste em uma API RESTful para gerência
 de transações financeiras. Os clientes da API (ex.: aplicações web e mobile) usufruirão das seguintes funcionalidades:
 
 <p>
