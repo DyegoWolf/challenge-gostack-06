@@ -1,7 +1,3 @@
-<p align="right">
-  <a href=""> English version </a>
-</p>
-
 <p align="center">
   <img src="https://res.cloudinary.com/dqqh1oigi/image/upload/v1594992537/Challenge%20Gostack%2006/GoStack_b27dh5.png" /> </br>
 </p>
@@ -37,6 +33,37 @@ de transações financeiras. Os consumidores da API usufruirão das seguintes fu
 ## Visualização :mag:
 
 Para acesso às rotas da API, foi utilizado o software [Insomnia Core](https://insomnia.rest/). 
+
+Acessando a rota de criação de uma transação e passando as informações no formato JSON, a API se encarregará de criar uma nova transação 
+com as informações repassadas e retornará um objeto com o molde disposto abaixo.
+
+<p align="center">
+  <img src="https://res.cloudinary.com/dqqh1oigi/image/upload/v1595000285/Challenge%20Gostack%2006/createTransaction_xrsqna.png" /> </br>
+</p>
+
+Acessando a rota de listagem de transações, a API irá listar as transações criadas e realizar o balanço, considerando as entradas, saídas 
+e o total em caixa.
+
+<p align="center">
+  <img src="https://res.cloudinary.com/dqqh1oigi/image/upload/v1595000798/Challenge%20Gostack%2006/listTransactions_absbrx.png" /> </br>
+</p>
+
+Acessando a rota para deletar uma transação, deverá ser informado o ID da transação a ser deletada nos parâmetros da requisição.
+
+<p align="center">
+  <img src="https://res.cloudinary.com/dqqh1oigi/image/upload/v1595001304/Challenge%20Gostack%2006/deleteTransaction_ea4l1d.png" /> </br>
+</p>
+
+Ao importar um arquivo .csv, a API se encarregará de realizar uma stream dos dados e inseri-los no banco de dados após completar sua 
+leitura. As imagens a seguir demonstram o arquivo .csv e o sucesso de sua importação na API.
+
+<p align="center">
+  <img src="https://res.cloudinary.com/dqqh1oigi/image/upload/v1595001620/Challenge%20Gostack%2006/fileCSV_dfdpfd.png" /> </br>
+</p>
+
+<p align="center">
+  <img src="https://res.cloudinary.com/dqqh1oigi/image/upload/v1595000963/Challenge%20Gostack%2006/importTransactions_bxqk0k.png" /> </br>
+</p>
 
 ## Execução :rocket:
 
