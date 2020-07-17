@@ -13,6 +13,10 @@
 <p align="center">
   <a href="#Introdução-memo"> Introdução </a>
    | 
+  <a href="#Visualização-mag"> Visualização </a>
+   | 
+  <a href="#Execução-rocket"> Execução </a>
+   | 
   <a href="#Tecnologias-computer"> Tecnologias </a>
 </p>
 
@@ -28,7 +32,27 @@ de transações financeiras. Os consumidores da API usufruirão das seguintes fu
     <li> Deletar uma transação financeira informando o seu ID; </li>
     <li> Criar transações financeiras a partir da importação de um arquivo .csv </li>
   </ol>
-<p/>
+</p>
+
+## Visualização :mag:
+
+Para acesso às rotas da API, foi utilizado o software [Insomnia Core](https://insomnia.rest/). 
+
+## Execução :rocket:
+
+Para executar a API, siga as instruções:
+
+<p>
+  <ol>
+    <li> Instalar dependências de projeto através do comando <b>yarn</b> </li>
+    <li> 
+      Criar instância do Postgres no docker e com o software cliente SQL (ex.: <a href="https://dbeaver.io/" target="_blank"> DBeaver</a>),
+      criar também um banco de dados chamado gostack_desafio06;
+    </li>
+    <li> Executar as migrations através do comando <b>yarn typeorm migration:run</b> </li>
+    <li> Inicializar API no servidor através do comando <b>yarn dev:server</b> </li>
+  </ol>
+</p>
 
 ## Tecnologias :computer:
 
