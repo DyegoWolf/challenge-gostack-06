@@ -18,8 +18,8 @@
 
 ## Introdução :memo:
 
-Este projeto foi motivado pelo desafio 06 do [Bootcamp GoStack](https://rocketseat.com.br/gostack) e consiste em uma API RESTful para gerência
-de transações financeiras. Os clientes da API (ex.: aplicações web e mobile) usufruirão das seguintes funcionalidades:
+Este projeto foi motivado pelo desafio 06 do [Bootcamp GoStack](https://rocketseat.com.br/gostack) e consiste na melhoria da API RESTful para gerência
+de transações financeiras criada no [desafio 05](https://github.com/DyegoWolf/challenge-gostack-05), com a implementação de duas novas funcionalidades e um banco de dados para armazenamento das transações. Os clientes da API (ex.: aplicações web e mobile) agora usufruirão das seguintes funcionalidades:
 
 <p>
   <ol>
@@ -90,6 +90,7 @@ Para executar a API, siga as instruções:
 
 Este projeto foi desenvolvido com as seguintes tecnologias:
 
+- [TypeScript](https://www.typescriptlang.org/)
 - [Docker](https://www.docker.com/)
 - [Postgres](https://hub.docker.com/_/postgres)
 - [TypeORM](https://typeorm.io/#/)
